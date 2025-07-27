@@ -1,0 +1,40 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 3.5rem;
+    width: 100%;
+}
+
+img {
+    height: 2.5rem;
+    width: 2.5rem;
+    margin: 15px;
+}
+
+h1 {
+    margin: 15px;
+    font: 300;
+    cursor: pointer;
+}
+
+ul {
+    margin: 15px;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    margin : 0 10px;
+    font: 300;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+a:hover {
+    font-weight: bolder;
+}
