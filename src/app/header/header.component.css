@@ -36,11 +36,12 @@ ul {
 li {
     list-style: none;
     display: inline;
-    margin : 0 10px;
+    margin : 0 15px;
     font: 300;
 }
 
 a {
+    font-size: 1.2rem;
     text-decoration: none;
     color: black;
 }
