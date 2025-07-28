@@ -9,8 +9,16 @@ div {
 .searchbar {
     height: 2.5rem;
     width: 30rem;
+
+    margin-right: 0;
+    border-right: 0px;
+
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
 }
 
 .btn {
     height: 2.5rem;
+    margin-left: 0;
 }
