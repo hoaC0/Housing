@@ -20,3 +20,20 @@ export class ListingComponent {
     availableFrom: new Date('2023-11-01')
   }
 }
+
+// unused - bsp von mehreren Objekten in einem Array
+export class ListingComponent2 {
+  housingLocationInfo: HousingLocationInfo[] = [
+    {
+      id: 1,
+      name: 'Sample Housing Location',
+      city: 'Schramberg',
+      state: 'Baden-Württemberg',
+      country: 'Germany',
+      photo: 'https://source.unsplash.com/random/300x300/?house',
+      price: 1200,
+      availableFrom: new Date('2023-11-01')
+    }
+    
+  ]
+}
