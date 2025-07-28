@@ -1,7 +1,16 @@
-.searchbar {
+div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.searchbar {
+    height: 3rem;
+    width: 15rem;
 }
 
 .btn {
-    
+    width: ;
+    height: 3rem;
 }
