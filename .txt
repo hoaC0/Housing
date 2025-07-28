@@ -6,3 +6,8 @@ git push
 ng serve --ssr=false
 
 server side rendering causes problem with assets folder -> images / files in public
+
+
+
+ng generate component - erstellen einer Komponente
+ng generate interaface - erstellen einer struktur wie zb modell
