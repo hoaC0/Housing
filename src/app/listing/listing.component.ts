@@ -21,6 +21,10 @@ export class ListingComponent {
   }
 }
 
+
+//
+//
+//
 // unused - bsp von mehreren Objekten in einem Array
 export class ListingComponent2 {
   housingLocationInfo: HousingLocationInfo[] = [
