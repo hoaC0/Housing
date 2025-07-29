@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, input } from '@angular/core'; // import input as well
 import { HousingLocationInfo } from '../housing-location-info';
+
 
 @Component({
   selector: 'app-listing',
