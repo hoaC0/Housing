@@ -10,7 +10,7 @@ import { HousingLocationInfo } from '../housing-location-info';
 })
 
 export class ListingComponent {
-  housingLocationInfo: HousingLocationInfo = {
+  housingLocationInfo: input.required<HousingLocationInfo> = ({
     id: 1,
     name: 'Big House for family',
     city: 'Schramberg',
@@ -20,7 +20,7 @@ export class ListingComponent {
     price: 1200,
     info: 'This is a spacious house suitable for families, located in a quiet neighborhood with easy access to schools and parks.',
     availableFrom: new Date('2023-11-01')
-  }
+  })
 }
 
 
