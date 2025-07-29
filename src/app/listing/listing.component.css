@@ -34,3 +34,18 @@ img {
     object-fit: cover;
 }
 
+.name {
+    width: 100%;
+    padding: 0.25rem;
+
+    font-size: larger;
+}
+
+.location, .country {
+    width: 100%;
+    padding: 0.25rem;
+
+    color: gray;
+    font-size: medium;
+}
+

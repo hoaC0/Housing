@@ -17,6 +17,7 @@ export class ListingComponent {
     country: 'Germany',
     photo: 'https://source.unsplash.com/random/300x300/?house',
     price: 1200,
+    info: 'This is a spacious house suitable for families, located in a quiet neighborhood with easy access to schools and parks.',
     availableFrom: new Date('2023-11-01')
   }
 }
@@ -36,6 +37,7 @@ export class ListingComponent2 {
       country: 'Germany',
       photo: 'https://source.unsplash.com/random/300x300/?house',
       price: 1200,
+      info: 'This is a sample housing location for demonstration purposes.',
       availableFrom: new Date('2023-11-01')
     }
     

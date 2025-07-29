@@ -6,5 +6,6 @@ export interface HousingLocationInfo {
     country: string;
     photo: string;
     price: number;
+    info: string;
     availableFrom: Date;
 }
