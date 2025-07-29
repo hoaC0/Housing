@@ -1,9 +1,9 @@
 <section>
     <div class="container">
         <div class="image"><img src="listing.png" alt=""></div>
-        <div class="name"> {{housingLocationInfo.name}} </div>
-        <div class="location"> {{housingLocationInfo.city}}, {{housingLocationInfo.state}}</div>
-        <div class="info"> <!-- {{housingLocationInfo.info}} --> Bluhbluhbluh </div>
-        <div class="price"> {{housingLocationInfo.price}}€ </div>
+        <div class="name"> {{housingLocationInfo().name}} </div>
+        <div class="location"> {{housingLocationInfo().city}}, {{housingLocationInfo().state}}</div>
+        <div class="info"> {{housingLocationInfo().info}} </div>
+        <div class="price"> {{housingLocationInfo().price}}€ </div>
     </div>
 </section>

@@ -3,6 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './header/header.component';
 import { SearchComponent } from "./search/search.component";
 import { ListingComponent } from "./listing/listing.component";
+import { HousingLocationInfo } from './housing-location-info'; // model
 
 @Component({
   selector: 'app-root',
