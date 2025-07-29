@@ -11,7 +11,7 @@ import { HousingLocationInfo } from '../housing-location-info';
 export class ListingComponent {
   housingLocationInfo: HousingLocationInfo = {
     id: 1,
-    name: 'Sample Housing Location',
+    name: 'Big House for family',
     city: 'Schramberg',
     state: 'Baden-Württemberg',
     country: 'Germany',
