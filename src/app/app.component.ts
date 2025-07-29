@@ -13,9 +13,8 @@ import { ListingComponent } from "./listing/listing.component";
 
 export class AppComponent {
   title = 'HousingLocation';
-}
 
-housingLocationInfo: HousingLocationInfo = {
+  housingLocationInfo: HousingLocationInfo = {
     id: 1,
     name: 'Big House for family',
     city: 'Schramberg',
@@ -26,4 +25,6 @@ housingLocationInfo: HousingLocationInfo = {
     info: 'This is a spacious house suitable for families, located in a quiet neighborhood with easy access to schools and parks.',
     availableFrom: new Date('2023-11-01')
   }
+
 }
+
