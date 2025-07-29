@@ -15,6 +15,7 @@ import { HousingLocationInfo } from './housing-location-info'; // model
 export class AppComponent {
   title = 'HousingLocation';
 
+  // objekt bzw dateien werden HIER definiert
   housingLocationInfo: HousingLocationInfo = {
     id: 1,
     name: 'Big House for family',

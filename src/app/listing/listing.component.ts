@@ -10,7 +10,9 @@ import { HousingLocationInfo } from '../housing-location-info';
 })
 
 export class ListingComponent {
-  housingLocationInfo = input.required<HousingLocationInfo>();
+  housingLocationInfo = input.required<HousingLocationInfo>(); 
+  // wiederverwendbare Komponemte
+  // wartet auf input von außen / parent
 }
 
 
