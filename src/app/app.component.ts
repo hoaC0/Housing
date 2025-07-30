@@ -4,6 +4,7 @@ import { HeaderComponent } from './header/header.component';
 import { SearchComponent } from "./search/search.component";
 import { ListingComponent } from "./listing/listing.component";
 import { HousingLocationInfo } from './housing-location-info'; // model
+import { HousingService } from './housing.service'; // service
 
 @Component({
   selector: 'app-root',

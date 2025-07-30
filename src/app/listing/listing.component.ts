@@ -1,6 +1,8 @@
 import { Component, input } from '@angular/core'; // import input as well
-import { HousingLocationInfo } from '../housing-location-info';
+import { HousingLocationInfo } from '../housing-location-info'; // model
 import { NgFor } from '@angular/common';
+import { HousingService } from '../housing.service'; // service
+
 
 
 @Component({
