@@ -33,4 +33,9 @@ import { HousingService } from './housing.service'; // service
 
 export class AppComponent {
   title = 'HousingLocation';
+  housingLocationInfo: HousingLocationInfo[] = []; // "linked" to service
+
+  constructor(private housingService: HousingService) {
+    this.housingLocationInfo = this.housingService.getAllHousingLocationInfo(); // get data from service
+  }
 }

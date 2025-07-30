@@ -77,4 +77,9 @@ export class HousingService {
 ]
 
   constructor() { }
+
+  // methode 
+  getAllHousingLocationInfo(): HousingLocationInfo[] {
+    return this.housingLocationInfo;
+  }
 }
