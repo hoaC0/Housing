@@ -1,10 +1,11 @@
 import { Component, input } from '@angular/core'; // import input as well
 import { HousingLocationInfo } from '../housing-location-info';
+import { NgFor } from '@angular/common';
 
 
 @Component({
   selector: 'app-listing',
-  imports: [],
+  imports: [NgFor],
   templateUrl: './listing.component.html',
   styleUrl: './listing.component.css'
 })
