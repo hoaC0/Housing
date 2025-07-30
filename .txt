@@ -21,3 +21,11 @@ property binding - funktioniert mit eckigen klammern also [ ]
                  - art daten von TS an HTML zu uebergeben
                  - macht HTML dynamisch ( HMTL - Attribute )
                  - besser als vanilla JS, da keine ID benoetigt werden
+
+                 bsp: <app-listing [housingLocationInfo]="housingLocationInfo"></app-listing>
+
+                 [Attribut]="Value"
+
+
+Interpolation - mit {{ expression }}
+              - you can render values from properties, inputs, and valid JavaScript expressions
