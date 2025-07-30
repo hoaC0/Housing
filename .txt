@@ -11,3 +11,7 @@ server side rendering causes problem with assets folder -> images / files in pub
 
 ng generate component - erstellen einer Komponente
 ng generate interaface - erstellen einer struktur wie zb modell
+
+
+
+inputs - sind dazu da, um daten / info von aussen zu erhalten ( von parent zu child )
