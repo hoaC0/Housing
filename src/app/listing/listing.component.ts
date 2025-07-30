@@ -11,7 +11,7 @@ import { NgFor } from '@angular/common';
 })
 
 export class ListingComponent {
-  housingLocationInfo = input.required<HousingLocationInfo>(); 
+  housingLocationInfo = input.required<HousingLocationInfo[]>(); 
   // wiederverwendbare Komponemte
   // wartet auf input von außen / parent
 }
