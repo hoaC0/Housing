@@ -1,9 +1,12 @@
 <section>
-    <div class="container" *ngFor="let housingLocation of housingLocationInfo()">
+    <div class="container" *ngFor="let listing of housingLocationInfo()">
         <div class="image"><img src="listing.png" alt=""></div>
-        <div class="name"> {{housingLocation.name}} </div>
-        <div class="location"> {{housingLocation.city}}, {{housingLocation.state}}</div>
-        <div class="info"> {{housingLocation.info}} </div>
-        <div class="price"> {{housingLocation.price}}€ </div>
+        <div class="name"> {{listing.name}} </div>
+        <div class="location"> {{listing.city}}, {{listing.state}}</div>
+        <div class="info"> {{listing.info}} </div>
+        <div class="price"> {{listing.price}}€ </div>
     </div>
 </section>
+
+<!-- *ngFor = let NAME soll selber definiert werden -->
+<!-- *ngFor = let NAME of ARRAY -->
