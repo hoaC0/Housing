@@ -1,9 +1,9 @@
 <section>
-    <div class="container">
+    <div class="container" *ngFor="let housingLocation of housingLocationInfo()">
         <div class="image"><img src="listing.png" alt=""></div>
-        <div class="name"> {{housingLocationInfo().name}} </div>
-        <div class="location"> {{housingLocationInfo().city}}, {{housingLocationInfo().state}}</div>
-        <div class="info"> <!-- {{housingLocationInfo.info}} --> Bluhbluhbluh </div>
-        <div class="price"> {{housingLocationInfo().price}}€ </div>
+        <div class="name"> {{housingLocation.name}} </div>
+        <div class="location"> {{housingLocation.city}}, {{housingLocation.state}}</div>
+        <div class="info"> {{housingLocation.info}} </div>
+        <div class="price"> {{housingLocation.price}}€ </div>
     </div>
 </section>
