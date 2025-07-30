@@ -15,3 +15,9 @@ ng generate interaface - erstellen einer struktur wie zb modell
 
 
 inputs - sind dazu da, um daten / info von aussen zu erhalten ( von parent zu child )
+
+
+property binding - funktioniert mit eckigen klammern also [ ]
+                 - art daten von TS an HTML zu uebergeben
+                 - macht HTML dynamisch ( HMTL - Attribute )
+                 - besser als vanilla JS, da keine ID benoetigt werden
