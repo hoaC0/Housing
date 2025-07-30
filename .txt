@@ -29,3 +29,9 @@ property binding - funktioniert mit eckigen klammern also [ ]
 
 Interpolation - mit {{ expression }}
               - you can render values from properties, inputs, and valid JavaScript expressions
+              
+
+services - erlaubt Logik und !DATEN! mehrfach verwendet zu werden ( durch zb mehrere komponenten )
+         - um mehrfach verwendet werden zu koenne werden services !!!INJECTABLE!!!
+
+         
