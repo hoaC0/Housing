@@ -35,6 +35,7 @@ export class AppComponent {
   title = 'HousingLocation';
   housingLocationInfo: HousingLocationInfo[] = []; // "linked" to service
 
+  // ruft housingService auf, um housingLocationInfo ( array / daten ) zu bekommen
   constructor(private housingService: HousingService) {
     this.housingLocationInfo = this.housingService.getAllHousingLocationInfo(); // get data from service
   }
